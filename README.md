@@ -1,4 +1,4 @@
-[![GitHub All Releases](https://img.shields.io/github/downloads/tfsec/tfsec-sarif-action/total)](https://github.com/tfsec/tfsec-sarif-action/releases)
+[![GitHub All Releases](https://img.shields.io/github/downloads/aquasecurity/tfsec-sarif-action/total)](https://github.com/aquasecurity/tfsec-sarif-action/releases)
 # tfsec-sarif-action
 
 ## Description
@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: tfsec
-        uses: tfsec/tfsec-sarif-action@master
+        uses: aquasecurity/tfsec-sarif-action@master
         with:
           sarif_file: tfsec.sarif          
 
@@ -35,4 +35,4 @@ jobs:
           sarif_file: tfsec.sarif         
 ```
 
-The `tfsec/tfsec-sarif-action` optionally takes a `config_file` argument to specify the path to a `tfsec` config file that you wish to be run in during the action.
+The `aquasecurity/tfsec-sarif-action` optionally takes a `config_file` argument to specify the path to a `tfsec` config file that you wish to be run in during the action.
